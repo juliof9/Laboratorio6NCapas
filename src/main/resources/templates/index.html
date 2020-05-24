@@ -8,7 +8,6 @@
 
 <p>Ingrese los datos del Estudiante:</p><br/>
         <form th:action="@{/formEstudiante}" th:object="${estudiante}" method="post">
-        	<input type="text" th:field="*{c_usuario}">
         
 			<label>Nombre del Estudiante</label>
 			<input type="text" th:field="*{nombre}" size="40" placeholder="Nombre"><br>

@@ -72,7 +72,7 @@ public class MainController {
 			e.printStackTrace();
 		}
 		mav.addObject("estudiantes", estudiantes);
-		mav.setViewName("index");
+		mav.setViewName("listado");
 		return mav;
 	}
 	
