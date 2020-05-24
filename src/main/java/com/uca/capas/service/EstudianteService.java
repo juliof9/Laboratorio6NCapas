@@ -11,5 +11,7 @@ public interface EstudianteService {
 	public List<Estudiante> findAll() throws DataAccessException;
 	
 	public void save(Estudiante estudiante) throws DataAccessException;
+	
+	public void delete(Integer c_usuario) throws DataAccessException;
 
 }

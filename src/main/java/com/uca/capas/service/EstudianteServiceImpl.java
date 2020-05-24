@@ -29,4 +29,11 @@ public class EstudianteServiceImpl implements EstudianteService{
 		
 	}
 
+	@Override
+	@Transactional
+	public void delete(Integer c_usuario) throws DataAccessException {
+		// TODO Auto-generated method stub
+		estudianteDAO.delete(c_usuario);
+	}
+
 }
